@@ -1,0 +1,64 @@
+body {margin: 0; padding: 0; text-align: center; font-family: 'PT Sans', sans-serif;}
+
+.map {
+    position: relative;
+    text-align: right;
+    padding-right: 5%;
+}
+
+a {
+  text-decoration:none;
+}
+
+h1{
+    margin: 5px;
+}
+
+svg {
+    position: absolute;
+    top: -2px;
+    /* left: 170px; */
+    left: 11.70%;
+    height: 100%;
+    width: 100%;
+}
+
+.part {
+    opacity: .1;
+}
+
+.part:hover {
+    transform: opasity .2s ease;
+    opacity: .4;
+    cursor: pointer;
+}
+
+.description{
+    position: absolute;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 400px;
+    box-shadow: 0 0 32px 10px #ccc;
+    left: 30px;
+    bottom: calc(50% - 200px);
+}
+
+img {
+    height: 70%;
+    width: 70%;
+}
+
+.finger{
+    width: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .description{
+        width: 150px;
+        left: 10px;
+        bottom: calc(50% - 152px);
+        height: 300px;
+    }
+
+}
